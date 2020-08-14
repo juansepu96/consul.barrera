@@ -53,7 +53,7 @@ if($InsertarTurno->execute()){
 
     
     $mensaje = "Estimado/a ".$nombre." su turno con ".$profesonal." es en Donado 342 el ".$fecha." a las  ".$hora." / CONFIRMADO";
-    $mensaje2 = " RECORDATORIO : Estimado/a ".$nombre." su turno con ".$profesonal." es en Donado 342 el ".$fecha." a las  ".$hora." / CONFIRMADO";
+    $mensaje2 = " RECORDATORIO : Estimado/a ".$nombre." su turno con ".$profesonal." en Donado 342 es el ".$fecha." a las  ".$hora;
 
     if($datos[2]=="CONFIRMADO"){
             EnviarMensaje($tel,$mensaje);  
